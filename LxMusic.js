@@ -1,6 +1,6 @@
 /*!
- * @name 聚合API接口 (by lerd)
- * @description 理论可听全平台无损
+ * @name NianNianMusic
+ * @description 粘粘Muisc
  * @version v2.0.0
  * @author lerd
  */
