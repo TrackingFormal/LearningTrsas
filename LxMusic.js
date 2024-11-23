@@ -1,5 +1,5 @@
 /*!
- * @name 粘粘Music V2.0
+ * @name 聚合API接口 (by lerd)
  * @description 理论可听全平台无损
  * @version v2.0.0
  * @author lerd
@@ -17,8 +17,7 @@ function _0x332b(_0x1a7e99, _0x56212e) {
                 const _0x48a39a = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';
                 let _0x141f02 = '',
                     _0x43ba4a = '';
-                for (let _0x386ddc = 0x0, _0x1e3707, _0x502bc7, _0x307a78 = 0x0; _0x502bc7 = _0xacfc57['charAt'](_0x307a78++); ~_0x502bc7 && (_0x1e3707 = _0x386ddc % 0x4 ? _0x1e3707 * 0x40 + _0x502bc7 : _0x502bc7, _0x386ddc++ % 0x4) ? _0x141f02 += String['fromCharCode'](0xff & _0x1e3707 >> (-0x2 * _
-0x386ddc & 0x6)) : 0x0) {
+                for (let _0x386ddc = 0x0, _0x1e3707, _0x502bc7, _0x307a78 = 0x0; _0x502bc7 = _0xacfc57['charAt'](_0x307a78++); ~_0x502bc7 && (_0x1e3707 = _0x386ddc % 0x4 ? _0x1e3707 * 0x40 + _0x502bc7 : _0x502bc7, _0x386ddc++ % 0x4) ? _0x141f02 += String['fromCharCode'](0xff & _0x1e3707 >> (-0x2 * _0x386ddc & 0x6)) : 0x0) {
                     _0x502bc7 = _0x48a39a['indexOf'](_0x502bc7);
                 }
                 for (let _0x29b5ae = 0x0, _0x3431e8 = _0x141f02['length']; _0x29b5ae < _0x3431e8; _0x29b5ae++) {
@@ -40,8 +39,7 @@ function _0x332b(_0x1a7e99, _0x56212e) {
                 }
                 _0xee68a9 = 0x0, _0xf29bb0 = 0x0;
                 for (let _0x10de97 = 0x0; _0x10de97 < _0x3d4aa5['length']; _0x10de97++) {
-                    _0xee68a9 = (_0xee68a9 + 0x1) % 0x100, _0xf29bb0 = (_0xf29bb0 + _0x53c089[_0xee68a9]) % 0x100, _0x4c7be5 = _0x53c089[_0xee68a9], _0x53c089[_0xee68a9] = _0x53c089[_0xf29bb0], _0x53c089[_0xf29bb0] = _0x4c7be5, _0x267bb8 += String['fromCharCode'](_0x3d4aa5['charCodeAt'](_0x10de97) ^
- _0x53c089[(_0x53c089[_0xee68a9] + _0x53c089[_0xf29bb0]) % 0x100]);
+                    _0xee68a9 = (_0xee68a9 + 0x1) % 0x100, _0xf29bb0 = (_0xf29bb0 + _0x53c089[_0xee68a9]) % 0x100, _0x4c7be5 = _0x53c089[_0xee68a9], _0x53c089[_0xee68a9] = _0x53c089[_0xf29bb0], _0x53c089[_0xf29bb0] = _0x4c7be5, _0x267bb8 += String['fromCharCode'](_0x3d4aa5['charCodeAt'](_0x10de97) ^ _0x53c089[(_0x53c089[_0xee68a9] + _0x53c089[_0xf29bb0]) % 0x100]);
                 }
                 return _0x267bb8;
             };
@@ -60,8 +58,7 @@ function _0x332b(_0x1a7e99, _0x56212e) {
             const _0x554200 = _0x599cb1();
             while (!![] && --_0x475b9f + _0x3eee44) {
                 try {
-                    _0x5a4750 = -parseInt(_0x34367f(0xc3, 'OjpG')) / 0x1 * (-parseInt(_0x34367f(0xf1, 'AXG[')) / 0x2) + -parseInt(_0x34367f(0xac, 'OjpG')) / 0x3 + -parseInt(_0x34367f(0xa9, 'rxWY')) / 0x4 + -parseInt(_0x34367f(0xdb, 'DZ)e')) / 0x5 + parseInt(_0x34367f(0x100, 'Hko$')) / 0x6 + -parseIn
-t(_0x34367f(0xbd, '8ENj')) / 0x7 * (parseInt(_0x34367f(0xd4, '#2e$')) / 0x8) + -parseInt(_0x34367f(0x106, '#2e$')) / 0x9;
+                    _0x5a4750 = -parseInt(_0x34367f(0xc3, 'OjpG')) / 0x1 * (-parseInt(_0x34367f(0xf1, 'AXG[')) / 0x2) + -parseInt(_0x34367f(0xac, 'OjpG')) / 0x3 + -parseInt(_0x34367f(0xa9, 'rxWY')) / 0x4 + -parseInt(_0x34367f(0xdb, 'DZ)e')) / 0x5 + parseInt(_0x34367f(0x100, 'Hko$')) / 0x6 + -parseInt(_0x34367f(0xbd, '8ENj')) / 0x7 * (parseInt(_0x34367f(0xd4, '#2e$')) / 0x8) + -parseInt(_0x34367f(0x106, '#2e$')) / 0x9;
                 } catch (_0xf6ef14) {
                     _0x5a4750 = _0x2c12af;
                 } finally {
@@ -277,16 +274,9 @@ MUSIC_SOURCE['forEach'](_0x238e3a => {
 
 function _0x3e54() {
     const _0x1424ce = (function() {
-        return [_0xod2, 'QjqRsJjiPafmRihTB.GhDcuoSmxEp.vL7SASAFNd==', 'W6XiErGmowhdJmoeoCkmWQVcUSkEW6ddMSoT', 'z8kNkMO', 'C33cTq', 'hf5IWPJcHsDNW6/cTWmw', 'umkfW7mdW7i', 'AmkMx8o8WOa', 'drfUzCoyng/dSSo7', 'yHOdW5JdSq', 'WOOSymkwe8kKW7JdP8oM', 't0iwlSoXjmkSWQeQWOuDwq', 'qKvSW78Ubx8', 'cX8JW4VdNWf9W6p
-dQa', 'vJZdRvm', 'd8k+fe5j', 'rc0QqW', 'WQVdU8o8qq', 'BKNcUgHpW5O', 'dd9GWPhdRNWEW5VdIJv4W6VdIJSpzCkcymoJd8kZdmocW5ldSCkroSoyaa/cKmkhWR93WRlcVSo0W6zuyHTyWOBdT8k1h8oeFvFdLqxdRxu', 'WP7dU3qoWOZdV1BdPGNdPSkwWPyc', 'W7xcVmk/q8ksWPJdPCoF', 'WRJcU8k3', 'hfXUW4e', 'Bmo0FSkK', 'WO15va', 'eSo5omkJW6xdTt88W6z
-syW', 'Ft8+', 'A3ymnbDuWRFcHq', 'DsmIyK0', 'E20jpW', 'q8oSvZlcOCk2w8oMWRmWzty', 'zXBdHLtcUa', 'WPRcPSoGWOacWQZcTIevsIXMW6/cIKK9lSoMWQaSqaBdUmkEWO84WQW2WPS5WPxcT2JdUCkst8kkqgKbl1KexLpcI1VdU8oGycFdLX4OvSkImmk0W551W7VcVG', 'qcC6bK8nEWpcOmoJmuZdGq', 'W7yLeKtcJdpdUItcH8kfWOy', 'xmkpdYDlWPfBmw54WOqzWPDRkm
-oUwSkv', 'l01voW'].concat((function() {
-            return ['F8kTpx58zeW', 'D8orWPW', 'c8omW4WzWQu', 'WO43ESklfCkF', 'gmooWPqA', 'W67dMmk6qCkbWQ/dLmkfyCkntmkGca', 'aMhcU3VcKZfscH0', 'W6SGcaq2u0W', 'wK45nSoDmZNdL8oyl0j7W4C', 'W4JcImkvxSkN', 'jmoUWQWrfa', 'W5SpsCoyAmoRsvK', 'W4evW5tdIW', 'BfDpB2eM', 'kmkaxLiA'
-, 'qqe1W4VdNW', 'AtRdG3JcOq', 'W4mVfIW', 'W4qpvmomACoNxG', 'AMChpXbb', 'W4VcPczD', 'lSkjdxP9l8k0WQRdTIHwc8kBk8kFimoZWPOxFSonW5JdG8kqWOJdJsXSsqBdQSoFW74ZWPPIWPZcQSkm', 'yuVcSh8', 'uHmnvG', 'imkcW5Hy', 'bSogW7rJFr9p', 'j8kEdwnHE8k7W6VdUcWFvSknpSkbkmo0WOC', 'yCkXWRRdUJ3dNaZcTWxdNgmtW6S', 'rCk4CCohWP8',
- 'jCkshw8', 'W6/cO8oMW6FdMq', 'wuW4tCkjC3RdLmo+', 'omo5WO9EWPCpmL0sW7KPW7xcRa', 'q8k2bMTt', 'ct5NWOJdVG', 'cb5oDSkRnmohWPyxWQm0', 'W5pcT8ksWOO', 'CSoJW7HdvG'].concat((function() {
-                return ['6icX5zg1tLBcO+AoPEwpRSk7WQCbsJJdSI/cJ1WB', 'W4RcSHldHGe', 'WRjNsG', 'v3KKWOO', 'WOBcQ8oKWPu', 'WQlcO8o+WRqE', 'WPeuq8oByCkZufNcJIjXA8kzfZpcK8kN', 'saOYvmoS', 'cWZcJW', 'Dr3dPuRcMWZcKa', 'eSo7p8kHW6tcOuyVW5nbzMVcJa', 'zfPuB2uBA8kX', 'xK0jiq', 'wruowW', 'aWL7DSkzoIlcTmoUe1O2W6
-yJWPnFsmobamogWRJdTxfsW7JdLmkJu8kWySomdCklWRuRFY91w8oEW7pcRrW1WQ/cH8oKW7Deg8kAg8kPxmkCW6e', 'W53cSdhdOq4', 'WQxcSSkRWQtdUW', 'yCkZWRZdUt7dNfVcRr3dRNWY', 'WQr6qHm', 'WRddHmo7WPug', 'WPNdUxPt', 'W5emw8oinSk6wepcLq', 'B8kTn3W', 'WOeShrdcTW', 'WO0JWP8', 'EmoxW7fswq', 'wSkiW6iEW7u', 'WQzzCGW', 'W4dcOJbDW
-4S', 'u095W68', 'xeaCiW', 'oSoiW54JW4DqcGpcIW', 'rCk9W64yW6e', 'WPFcLSkhWQ7dOG', 'W4ZcGmoFqwjvW4LyW67cVeNdSCkh', 'iCkydsP7z8o3WQxdSIPnsSkk'];
+        return [_0xod2, 'QjqRsJjiPafmRihTB.GhDcuoSmxEp.vL7SASAFNd==', 'W6XiErGmowhdJmoeoCkmWQVcUSkEW6ddMSoT', 'z8kNkMO', 'C33cTq', 'hf5IWPJcHsDNW6/cTWmw', 'umkfW7mdW7i', 'AmkMx8o8WOa', 'drfUzCoyng/dSSo7', 'yHOdW5JdSq', 'WOOSymkwe8kKW7JdP8oM', 't0iwlSoXjmkSWQeQWOuDwq', 'qKvSW78Ubx8', 'cX8JW4VdNWf9W6pdQa', 'vJZdRvm', 'd8k+fe5j', 'rc0QqW', 'WQVdU8o8qq', 'BKNcUgHpW5O', 'dd9GWPhdRNWEW5VdIJv4W6VdIJSpzCkcymoJd8kZdmocW5ldSCkroSoyaa/cKmkhWR93WRlcVSo0W6zuyHTyWOBdT8k1h8oeFvFdLqxdRxu', 'WP7dU3qoWOZdV1BdPGNdPSkwWPyc', 'W7xcVmk/q8ksWPJdPCoF', 'WRJcU8k3', 'hfXUW4e', 'Bmo0FSkK', 'WO15va', 'eSo5omkJW6xdTt88W6zsyW', 'Ft8+', 'A3ymnbDuWRFcHq', 'DsmIyK0', 'E20jpW', 'q8oSvZlcOCk2w8oMWRmWzty', 'zXBdHLtcUa', 'WPRcPSoGWOacWQZcTIevsIXMW6/cIKK9lSoMWQaSqaBdUmkEWO84WQW2WPS5WPxcT2JdUCkst8kkqgKbl1KexLpcI1VdU8oGycFdLX4OvSkImmk0W551W7VcVG', 'qcC6bK8nEWpcOmoJmuZdGq', 'W7yLeKtcJdpdUItcH8kfWOy', 'xmkpdYDlWPfBmw54WOqzWPDRkmoUwSkv', 'l01voW'].concat((function() {
+            return ['F8kTpx58zeW', 'D8orWPW', 'c8omW4WzWQu', 'WO43ESklfCkF', 'gmooWPqA', 'W67dMmk6qCkbWQ/dLmkfyCkntmkGca', 'aMhcU3VcKZfscH0', 'W6SGcaq2u0W', 'wK45nSoDmZNdL8oyl0j7W4C', 'W4JcImkvxSkN', 'jmoUWQWrfa', 'W5SpsCoyAmoRsvK', 'W4evW5tdIW', 'BfDpB2eM', 'kmkaxLiA', 'qqe1W4VdNW', 'AtRdG3JcOq', 'W4mVfIW', 'W4qpvmomACoNxG', 'AMChpXbb', 'W4VcPczD', 'lSkjdxP9l8k0WQRdTIHwc8kBk8kFimoZWPOxFSonW5JdG8kqWOJdJsXSsqBdQSoFW74ZWPPIWPZcQSkm', 'yuVcSh8', 'uHmnvG', 'imkcW5Hy', 'bSogW7rJFr9p', 'j8kEdwnHE8k7W6VdUcWFvSknpSkbkmo0WOC', 'yCkXWRRdUJ3dNaZcTWxdNgmtW6S', 'rCk4CCohWP8', 'jCkshw8', 'W6/cO8oMW6FdMq', 'wuW4tCkjC3RdLmo+', 'omo5WO9EWPCpmL0sW7KPW7xcRa', 'q8k2bMTt', 'ct5NWOJdVG', 'cb5oDSkRnmohWPyxWQm0', 'W5pcT8ksWOO', 'CSoJW7HdvG'].concat((function() {
+                return ['6icX5zg1tLBcO+AoPEwpRSk7WQCbsJJdSI/cJ1WB', 'W4RcSHldHGe', 'WRjNsG', 'v3KKWOO', 'WOBcQ8oKWPu', 'WQlcO8o+WRqE', 'WPeuq8oByCkZufNcJIjXA8kzfZpcK8kN', 'saOYvmoS', 'cWZcJW', 'Dr3dPuRcMWZcKa', 'eSo7p8kHW6tcOuyVW5nbzMVcJa', 'zfPuB2uBA8kX', 'xK0jiq', 'wruowW', 'aWL7DSkzoIlcTmoUe1O2W6yJWPnFsmobamogWRJdTxfsW7JdLmkJu8kWySomdCklWRuRFY91w8oEW7pcRrW1WQ/cH8oKW7Deg8kAg8kPxmkCW6e', 'W53cSdhdOq4', 'WQxcSSkRWQtdUW', 'yCkZWRZdUt7dNfVcRr3dRNWY', 'WQr6qHm', 'WRddHmo7WPug', 'WPNdUxPt', 'W5emw8oinSk6wepcLq', 'B8kTn3W', 'WOeShrdcTW', 'WO0JWP8', 'EmoxW7fswq', 'wSkiW6iEW7u', 'WQzzCGW', 'W4dcOJbDW4S', 'u095W68', 'xeaCiW', 'oSoiW54JW4DqcGpcIW', 'rCk9W64yW6e', 'WPFcLSkhWQ7dOG', 'W4ZcGmoFqwjvW4LyW67cVeNdSCkh', 'iCkydsP7z8o3WQxdSIPnsSkk'];
             }()));
         }()));
     }());
